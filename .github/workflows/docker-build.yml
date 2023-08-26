@@ -23,7 +23,7 @@ jobs:
         name: Checkout
         uses: actions/checkout@v2
         with:
-          path: 'exercises/python-helloworld/'
+          path: 'exercises/python-helloworld'
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v1
